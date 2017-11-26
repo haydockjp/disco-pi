@@ -7,7 +7,7 @@ The website has a single page which has a very basic layout. The webpage populat
 
 While playing the music file, the webpage uses the [AudioContext](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext) interface to analyse the music, which is then sent to the server over a secure websocket connection.
 
-The server running on a [Raspberry Pi](https://www.raspberrypi.org) uses the [WS281X](https://github.com/jgarff/rpi_ws281x) library to change the colours of the LEDs on a WS2811 LED strip, based on the data sent through the websocket.
+The server running on a [Raspberry Pi](https://www.raspberrypi.org) uses the [Node RPI WS281x Native](https://github.com/beyondscreen/node-rpi-ws281x-native) library (wrapping Jeremy Garff's [WS281X](https://github.com/jgarff/rpi_ws281x) library) to change the colours of the LEDs on a WS2811 LED strip, based on the data sent through the websocket.
 
-Please see the instructable for full details.
+Please see the [Disco-pi instructable](https://goo.gl/iFHPsP) for full details.
 
