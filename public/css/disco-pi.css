@@ -1,0 +1,18 @@
+/* global */
+html, body{
+    padding: 6px;
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color: #ffffff;
+}
+main.container {
+    margin-top: 5em;
+    min-height: 100%;
+}
+
+input[type="radio"] {
+    margin-top: -1px;
+    vertical-align: middle;
+}
