@@ -9,9 +9,9 @@ const  https = require('https')
 , ONE_YEAR = 31536000000
 ;
 
-// Environment cariable DISCO_PI_PORT can set the port
+// Environment variable DISCO_PI_PORT can set the port
 // default is 443
-const port = parseInt(process.env.PORT, 10) || 443;
+const port = parseInt(process.env.DISCO_PI_PORT, 10) || 443;
 
 // Passing in a parameter for the number of LEDs
 //  or default to 50
